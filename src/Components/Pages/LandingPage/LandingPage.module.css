@@ -1,0 +1,122 @@
+.body {
+  background-color: black;
+  margin-top: 1rem;
+  display: flex;
+  height: 100%;
+}
+.intro {
+  color: white;
+  margin-top: 13%;
+  display: block;
+  width: 50%;
+}
+.intro h1 {
+  margin: 0 auto;
+  font-size: 1.7rem;
+  font-variant: small-caps;
+  letter-spacing: 0.27rem;
+}
+.intro p {
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.15rem;
+  font-variant: small-caps;
+}
+.img {
+  display: block;
+  width: 50%;
+}
+.sec {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+  padding: 5px;
+  letter-spacing: 0.1rem;
+}
+.Caraousal {
+  align-items: center;
+}
+
+/* for shorter device display */
+
+@media (max-width: 950px) {
+  .intro {
+    width: 45%;
+  }
+  .img {
+    display: block;
+    width: 66%;
+  }
+  .intro h1 {
+    font-size: 1.3rem;
+    margin: 0 2px;
+    letter-spacing: 0.2rem;
+  }
+  .intro p {
+    font-size: 0.5rem;
+    margin: 6px auto;
+    letter-spacing: 0.13rem;
+  }
+  .sec {
+    font-size: 1.3rem;
+    margin: 0.5rem auto;
+    padding: 0.8px;
+    width: 98%;
+  }
+}
+
+@media (max-width: 650px) {
+  .intro {
+    width: 30%;
+  }
+  .intro h1 {
+    font-size: 1rem;
+    margin: 0 6px;
+    letter-spacing: 0.15rem;
+  }
+  .intro p {
+    font-size: 0.3rem;
+    letter-spacing: 0.08rem;
+  }
+  .sec {
+    font-size: 0.9rem;
+    margin: 0.2rem auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .body {
+    align-items: center;
+    display: block;
+  }
+  .intro {
+    color: white;
+    margin: 6rem auto 2rem auto;
+    display: block;
+    width: 80%;
+  }
+  .intro h1,
+  .intro p {
+    margin: 6px;
+  }
+  .intro h1 {
+    font-size: 1.2rem;
+  }
+  .intro p {
+    font-size: 0.6rem;
+  }
+  .img {
+    display: block;
+    width: 95%;
+    margin: 1.2rem auto;
+  }
+  .sec h2 {
+    margin: 0 auto 0.8rem auto;
+    font-size: 1.1rem;
+    letter-spacing: 0.08rem;
+  }
+  .Caraousal div {
+    height: 60%;
+  }
+}

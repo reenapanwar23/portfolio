@@ -1,0 +1,30 @@
+.links {
+  display: flex;
+}
+.links li {
+  display: flex;
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0 0.2rem;
+}
+.links a {
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.15rem;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  text-decoration: none;
+  margin: auto 0.8rem;
+  cursor: pointer;
+}
+
+.home a {
+  align-content: center;
+  color: #ffff;
+}
+.links a:hover {
+  color: grey;
+}

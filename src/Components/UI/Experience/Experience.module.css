@@ -1,0 +1,91 @@
+.Experience {
+  background-color: white;
+  align-items: center;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: row;
+  margin-top: 1rem;
+  padding: 0;
+}
+.main {
+  display: block;
+  width: 40%;
+  text-align: left;
+  align-items: center;
+  padding: 1.2rem;
+}
+.cont {
+  display: block;
+  width: 50%;
+  text-align: right;
+  padding: 0 2rem;
+}
+.cont h2 {
+  text-align: left;
+  font-size: 1.7rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+  color: rgb(47, 71, 144);
+}
+.cont ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+  font-size: 1.2rem;
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+}
+.cont li {
+  padding: 0.6rem;
+  line-height: 1.7rem;
+}
+
+@media (max-width: 980px) {
+  .main {
+    padding: 2.5rem 1.8rem;
+  }
+  .cont {
+    padding: 1rem 3rem;
+  }
+  .cont h2 {
+    font-size: 1.4rem;
+  }
+  .cont ul {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .cont li {
+    padding: 0.5rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .Experience {
+    flex-flow: column;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .main {
+    width: 60%;
+    padding: 0.5rem 0.2rem;
+  }
+  .cont {
+    width: 80%;
+    padding: 0.6rem 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .Experience {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .main {
+    text-align: center;
+    padding: 0.5rem;
+    width: 85%;
+  }
+  .cont {
+    width: 90%;
+    padding: 0;
+  }
+}

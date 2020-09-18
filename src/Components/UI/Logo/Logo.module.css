@@ -1,0 +1,22 @@
+.Bg {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: black;
+}
+.Bg img {
+  height: 110%;
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .Bg img {
+    height: 110%;
+  }
+}
+@media (max-width: 380px) {
+  .Bg img {
+    height: 180%;
+    width: 100%;
+  }
+}

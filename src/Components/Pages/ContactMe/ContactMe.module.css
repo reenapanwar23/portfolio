@@ -1,0 +1,119 @@
+.body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5rem 0 10rem 3rem;
+}
+.intro {
+  text-align: left;
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px solid #fff;
+  width: 70%;
+  border: solid;
+  padding: 20px;
+  border-color: rgb(168, 168, 168);
+  border-radius: 10px;
+  margin-top: 0;
+}
+.intro h1 {
+  margin: 1rem auto;
+  font-size: 2.3rem;
+  font-family: "Montserrat", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+.intro p {
+  font-family: "Lato", "Montserrat", "Ubuntu";
+  color: grey;
+  font-size: 1.28rem;
+}
+.contact ul {
+  display: flex;
+  flex-flow: row;
+  text-align: left;
+  padding: 2.5rem 0;
+}
+.contact li {
+  display: inline-block;
+  color: white;
+  padding: 0.6rem 0.8rem;
+  margin-right: 2rem;
+  text-decoration-style: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.contact li path:hover {
+  color: grey;
+}
+.contact li:hover {
+  background-color: rgb(20, 20, 20);
+}
+.contact li a {
+  color: #fff;
+}
+
+/* for shorter device display */
+
+@media (max-width: 750px) {
+  .intro {
+    width: 80%;
+  }
+  .intro h1 {
+    font-size: 1.8rem;
+  }
+  .intro p {
+    font-size: 1.1rem;
+  }
+  .contact ul {
+    padding: 1rem 0.3rem;
+  }
+  .contact li {
+    padding: 0.8, 1rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .intro {
+    width: 92%;
+  }
+  .body {
+    padding: 3rem 0.6rem 1.7rem 1.5rem;
+  }
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+  .contact ul {
+    padding: 1rem;
+  }
+  .contact li {
+    padding: 0.4rem 0.6rem;
+  }
+}
+@media (max-width: 350px) {
+  .intro {
+    width: 96%;
+    padding: 6px;
+  }
+  .body {
+    padding: 2rem 0.5rem 1.5rem 1.3rem;
+  }
+  .intro h1 {
+    font-size: 1.3rem;
+  }
+  .intro p {
+    font-size: 0.8rem;
+  }
+  .contact ul {
+    flex-flow: column;
+    padding: 0.3rem;
+  }
+  .contact li {
+    padding: 0.2rem 0.3rem;
+  }
+}

@@ -1,0 +1,51 @@
+.Tabs {
+  align-items: center;
+  color: rgb(85, 85, 85);
+  padding: 1rem 1rem 0.2rem 1rem;
+  background-color: white;
+  margin: 0;
+}
+.tab {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #3f51b5;
+  border-radius: 5px;
+  padding: 0.8rem;
+  display: inline-flexbox;
+}
+.tab h3 {
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.tab img {
+  width: 8%;
+  height: 8%;
+  margin: 0.5rem 1.5rem;
+}
+
+/* for shorter device display */
+
+@media (max-width: 750px) {
+  .tab h3 {
+    font-size: 0.8rem;
+  }
+  .tab img {
+    width: 13%;
+    height: 13%;
+    margin: 0.2rem 1rem;
+  }
+}
+@media (max-width: 380px) {
+  .tab {
+    border-width: 3px;
+  }
+
+  .tab h3 {
+    font-size: 0.7rem;
+  }
+  .tab img {
+    width: 19%;
+    height: 19%;
+    margin: 0.1rem 0.7rem;
+  }
+}

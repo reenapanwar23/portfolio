@@ -1,0 +1,55 @@
+.body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 4rem 0 10rem 3rem;
+}
+.intro {
+  text-align: left;
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px solid #fff;
+  width: 85%;
+  border: solid;
+  padding: 20px;
+  border-color: rgb(168, 168, 168);
+  border-radius: 10px;
+  margin-top: 0;
+}
+.intro h1 {
+  margin: 1rem auto;
+  font-size: 2.2rem;
+  font-family: "Montserrat", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+.intro p {
+  font-family: "Lato", "Montserrat", "Ubuntu";
+  color: grey;
+  font-size: 1.25rem;
+}
+
+/* only for smaller devices */
+
+@media (min-width: 800px) {
+  .intro {
+    width: 60%;
+  }
+}
+
+@media (max-width: 530px) {
+  .intro {
+    width: 90%;
+  }
+  .body {
+    padding: 2rem;
+  }
+  .intro h1 {
+    font-size: 1.8rem;
+    overflow: auto;
+  }
+  .intro p {
+    font-size: 0.9rem;
+  }
+}
